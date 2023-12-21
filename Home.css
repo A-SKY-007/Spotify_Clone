@@ -1,0 +1,621 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: black;
+    position: relative;
+}
+article
+{
+
+    width: 1180px;
+    background-color: rgb(55, 55, 55);
+    margin-left: auto;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+nav
+{
+    border-top-left-radius: 10px;
+    height: 70px;
+    width: 1180px;
+    background-color: rgba(36, 36, 36,.97);
+    position: relative;
+    position: fixed;
+    z-index: 2;
+}
+.nav_b1
+{
+   background-color: rgba(0, 0, 0, 0.301); 
+   height: 40px;
+   width: 40px;
+   border: none;
+   border-radius: 50%;
+   background-image: url(less-than.png);
+   background-size: 40px;
+   position: absolute;
+   top: 18px;
+   left: 40px;
+   cursor: no-drop;
+}
+.nav_b2
+{
+   background-color: rgba(0, 0, 0, 0.303); 
+   height: 40px;
+   width: 40px;
+   border: none;
+   border-radius: 50%;
+   background-image: url(greater-than.png);
+   background-size: 40px;
+   position: absolute;
+   top: 18px;
+   left: 90px;
+   cursor: no-drop;
+}
+.input
+{
+    height: 40px;
+    width: 350px;
+    background-color: rgb(50, 48, 48);
+    background-image: url(search_white.svg);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px 10px;
+    border-radius: 30px;
+    border: none;
+    position: absolute;
+    top: 17px;
+    left: 150px;
+    color: white;
+    font-size: 17px;
+}
+.input:placeholder-shown
+{
+    padding-left: 50px;
+    font-size: 16px;
+}
+.nav_selection
+{
+    height: 40px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 700px;
+    top: 15px;
+}
+.nav_selection a
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+.Premium:hover
+{
+    color: #ffffff;
+}
+.Support:hover
+{
+    color: #ffffff;
+}
+.Download:hover
+{
+    color: #ffffff;
+}
+.Signup:hover
+{
+    color: #ffffff;
+}
+.two
+{
+    position: absolute;
+    top: 15px;
+    left: 920px;
+    height: 40px;
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.stop
+{
+    font-weight: 600;
+    padding-left: 20px;
+    color: #ffffff;
+}
+.two a
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic Medium';
+    color: rgb(124, 124, 124);
+    text-decoration: none;
+}
+.button
+{
+    position: absolute;
+    height: 50px;
+    width: 120px;
+    border-radius: 30px;
+    right: 10px;
+    top: 11px;
+    border: 1px solid white;
+}
+.button a
+{
+    color: black;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+    text-decoration: none;
+}
+.next1
+{
+    color: #ffffff;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 26px;
+    padding-left: 20px;
+}
+.forjidiv
+{
+    height: 75px;
+    width: auto;
+    font-size: 25px;
+}
+/*aside properties*/
+aside
+{
+    height: 635px;
+    width: 330px;
+    position: absolute;
+    position: fixed;
+}
+.aside1
+{
+    height: 120px;
+    width: 320px;
+    background-color: rgb(55, 55, 55);
+    margin-left: 8px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.div1
+{
+    height: 50px;
+    width: 130px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.div2
+{
+    height: 50px;
+    width: 130px;
+    margin-left: 35px;
+    display: flex;
+    justify-content: space-around;
+}
+.aside1 #img1
+{
+    height: 30px;
+    width: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.aside1 #img1:hover
+{
+    image-rendering: pixelated;
+}
+.aside1 #img2
+{
+    height: 27px;
+    width: 27px;
+    margin-left: 12px;
+    margin-top: 10px;
+}
+#sub-anchar1
+{
+    padding-top: 15px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium';
+    color: #ABABAB;
+}
+#sub-anchar1:hover
+{
+    color: white;
+}
+#sub-anchar2
+{
+    padding-top: 13px;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Franklin Gothic Medium';
+    color: #ffffff;
+}
+.aside2
+{
+    height: 70px;
+    width: 320px;
+    background-color: rgb(35, 35, 35);
+    margin-left: 8px;
+    margin-top: 8px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.aside2>h1
+{
+    padding-left: 95px;
+    padding-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+}
+.aside3
+{
+    height: 210px;
+    width: 320px;
+    background-color: rgb(35, 35, 35);
+    margin-left: 8px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar
+{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: rgba(251, 251, 251, 0.397);
+}
+::-webkit-resizer
+{
+    height: 20px;
+}
+.cresteyourfirstlibrary
+{
+    height: 130px;
+    width: 300px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-top: 9px;
+    margin-left: 9px;
+}
+.cresteyourfirstlibrary>h3
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 15px;
+    padding-top: 20px;
+    color: white;
+}
+.cresteyourfirstlibrary>h5
+{
+
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 15px;
+    padding-top: 10px;
+    color: white;
+}
+.cresteyourfirstlibrary>button
+{
+
+    margin-top: 17px;
+    margin-left: 10px;
+    height: 35px;
+    width: 120px;
+    background-color: white;
+    color: black;
+    border-radius: 30px;
+    font-family: 'Franklin Gothic Medium';
+    border: none;
+}
+.cresteyourfirstlibrary>button:hover
+{
+    height: 40px;
+    width: 130px;
+}
+.aside4
+{
+    height: 220px;
+    width: 320px;
+    background-color: rgb(35, 35, 35);
+    margin-left: 8px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.letsfind
+{
+    height: 180px;
+    width: 300px;
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 9px;
+}
+.letsfind>h2
+{
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+}
+.letsfind>h5
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 13px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.letsfind>button
+{
+    height: 35px;
+    width: 170px;
+    margin-top: 25px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: none;
+}
+.letsfind a
+{
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+#btna
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+}
+.a1
+{
+    color: black;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium';
+    text-decoration: none;
+}
+.letsfind>button:hover
+{
+    height: 40px;
+    width: 180px;
+}
+.asidefooter1
+{
+    margin-left: 10px;
+    height: 70px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.asidefooter2
+{
+    margin-left: 10px;
+    height: 30px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aside4 a
+{
+    font-size: 12px;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    color: #ABABAB;
+    text-decoration: none;
+}
+.aside4 button
+{
+    margin-top: 30px;
+    margin-left: 20px;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px;
+    background-color: black;
+    border: 1px rgb(177, 177, 177) solid;
+}
+/*main artical*/
+.main
+{
+    height: 1500px;
+    width: 1150px;
+    margin-left: 15px;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px 200px;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+.box
+{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+    overflow: hidden;
+    text-decoration: none;
+}
+.main h3
+{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 15px;
+    padding-top: 20px;
+}
+#box1
+{
+    background-color: rgb(85, 168, 141);
+}
+#box2
+{
+    background-color: rgb(51, 51, 120);
+}
+#box3
+{
+    background-color: rgb(237, 91, 237);
+}
+#box4
+{
+    background-color: rgb(220, 20, 117);
+}
+#box5
+{
+    background-color: rgb(139, 67, 139);
+}
+#box6
+{
+    background-color:  #0d72ea;
+}
+#box7
+{
+    background-color: rgb(145, 102, 155);
+}
+#box8
+{
+    background-color: rgb(45, 143, 143);
+}
+#box9
+{
+    background-color: rgb(157, 172, 46);
+}
+#box10
+{
+    background-color: rgb(191, 41, 208);
+}
+#box11
+{
+    background-color: rgb(175, 33, 62);
+}
+#box12
+{
+    background-color: rgb(102, 102, 244);
+}
+#box13
+{
+    background-color: rgb(59, 143, 59);
+}
+#box14
+{
+    background-color: rgb(125, 42, 42);
+}
+#box15
+{
+    background-color: rgb(45, 70, 143);
+}
+#box16
+{
+    background-color: skyblue;
+}
+#box17
+{
+    background-color: rgb(93, 91, 91);
+}
+#box18
+{
+    background-color: rgb(23, 23, 106);   
+}
+#box19
+{
+    background-color: rgb(76, 51, 91);
+}
+#box20
+{
+    background-color: rgb(173, 82, 49);
+}
+#box21
+{
+    background-color: rgb(255, 80, 121);
+}
+#box22
+{
+    background-color: darkkhaki;
+}
+#box23
+{
+    background-color: rgb(66, 109, 95);
+}
+#box24
+{
+    background-color: rgb(255, 207, 149);
+}
+#box25
+{
+    background-color: cornflowerblue;
+}
+.main img
+{
+    height: 100px;
+    width: 100px;
+    margin-top: 60px;
+    margin-left: 115px;
+    transform: rotate(25deg);
+    z-index: 1;
+}
+
+
+/*gradiant is use to develop multipule coloring combination*/
+.footerfixed
+{
+    height: 70px;
+    width: 1800px; 
+    background-image: linear-gradient(to right,rgb(197, 76, 149),rgb(167, 76, 197),rgb(92, 190, 225),rgb(80, 180, 230));
+    position: fixed;
+    bottom: 10px;
+}
+.footerfixed1
+{
+    height: 70px;
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    position: relative;
+}
+.lastanchar
+{
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.lastanchar1
+{
+    padding-left: 20px;
+    color: #ffffff;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+.lastbutton
+{
+    height: 50px;
+    width: 170px;
+    border: 1px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 12px;
+    left: 1310px;
+}
+.lastbutton a
+{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+.lastbutton:hover
+{
+    height: 52px;
+    width: 180px;
+}

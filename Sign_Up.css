@@ -1,0 +1,392 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    height: 1500px;
+    width: auto;
+}
+.first
+{
+    display: flex;
+    position: absolute;
+    top: 40px;
+    left: 47%;
+}
+.icon_logo img
+{
+    height: 40px;
+    width: 40px;
+}
+.icon_text
+{
+    padding-top: 5px;
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium';
+    color: black;
+}
+sup
+{
+    padding-top: 10px;
+    color: black;
+}
+.second
+{
+    font-size: 27px;
+    font-family: 'Franklin Gothic Medium';
+    padding-left: 600px;
+    padding-top: 40px;
+}
+.facebook-button
+{
+
+    margin-top: 45px;
+    margin-left: 600px;
+    height: 50px;
+    width: 394px;
+    border-radius: 30px;
+    border: 0px solid #405A93;
+    transition: height 0.1s, width 0.1s;
+    background-color: #405A93;
+    color: white;
+    font-size: 15px;
+    display: flex;
+}
+.facebook-button:hover
+{
+    height: 55px;
+    width: 410px;
+}
+.facebook-button img
+{
+    height: 24px;
+    width: 24px;
+    margin-left: 90px;
+    margin-top: 13px
+}
+#bold
+{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+.google-button
+{
+
+    margin-top: 20px;
+    margin-left: 600px;
+    height: 50px;
+    width: 394px;
+    border-radius: 30px;
+    border: 2px solid black;
+    transition: height 0.1s, width 0.1s;
+    color: black;
+    font-size: 15px;
+    display: flex;
+}
+.google-button:hover
+{
+    height: 55px;
+    width: 410px;
+}
+.google-button img
+{
+    height: 24px;
+    width: 24px;
+    margin-left: 90px;
+    margin-top: 13px
+}
+#bold1
+{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+.third1
+{
+    position: absolute;
+    top: 360px;
+    margin-left: 620px;
+    width: 160px;
+}
+.third2
+{
+    color: rgb(127, 127, 127);
+    position: absolute;
+    left: 790px;
+    top: 348px;
+}
+.third3
+{
+    position: absolute;
+    top: 360px;
+    margin-left: 820px;
+    width: 160px;
+}
+.fourth
+{
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium';
+    left: 660px;
+    top: 380px;
+}
+.big
+{
+    height: 200px;
+    width: 400px;
+}
+form
+{
+    margin-left: 580px;
+    margin-top: 20px;
+    width: 450px;
+    height: fit-content;
+}
+.five1
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five2
+{
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+:placeholder-shown
+{
+    font-size: 17px;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic';
+}
+.five3
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five4
+{
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.five3
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five4
+{
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.five5
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five6
+{
+    height: 50px;
+    width: 450px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.five7
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five8
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic';
+}
+.five9
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic';
+    margin-left: -55px;
+}
+.five10
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic';
+}
+.date
+{
+    height: 20px;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.five11
+{
+    height: 50px;
+    width: 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.five12
+{
+    height: 50px;
+    width: 170px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.five13
+{
+    height: 50px;
+    width: 130px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.date_box
+{
+    height: 60px;
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+select
+{
+    height: 50px;
+    width: 170px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size:17px;
+    font-family: 'Franklin Gothic';
+    color: grey;
+}
+option
+{
+    font-size:17px;
+    font-family: 'Franklin Gothic';
+    color: gray;
+}
+.five14
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium';
+}
+.five15
+{
+    height: fit-content;
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+.five15 label
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+.five15>input
+{
+    height: 15px;
+    width: 15px;
+}
+.five16
+{
+    height: 15px;
+    width: 15px;
+}
+.five17
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+}
+.five18
+{
+    height: 20px;
+    width: 450px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.five18 input
+{
+    height: 15px;
+    width: 15px;
+}
+.five19
+{
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    padding-left: 5px;
+}
+.five20 input
+{
+    height: 15px;
+    width: 15px;
+}
+.five20
+{
+    height: 20px;
+    width: 450px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: space-between;
+}
+.five21 input
+{
+    height: 15px;
+    width: 15px;
+}
+.five21
+{
+    height: 20px;
+    width: 450px;
+    font-size: 16px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: space-between;
+}
+.five21 a
+{
+    color: rgb(29, 185, 84);;
+}
+.six
+{
+    height: 55px;
+    width: 190px;
+}
+.signup-button
+{
+    margin-left: 730px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: rgb(29, 185, 84) solid 1px;
+    transition: height 0.1s, width 0.1s;
+    background-color: rgb(29, 185, 84);
+    color: black;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-button:hover
+{
+    height: 55px;
+    width: 190px;
+}
+.seven
+{
+    font-size: 19px;
+    font-family: 'Franklin Gothic';
+    margin-left: 713px;
+}
+.seven a
+{
+    color:rgb(29, 185, 84);
+}

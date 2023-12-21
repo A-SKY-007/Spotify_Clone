@@ -1,0 +1,297 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    height: 100px;
+    width: auto;
+    background-color: black;
+}
+nav>span{
+    margin-left: 50px;
+}
+nav p
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 25px;
+    padding-top: 6px;
+}
+nav img
+{
+    height: 40px;
+    width: 40px;
+}
+sup
+{
+    color: white;
+}
+.nav_logo
+{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: baseline;
+    position: absolute;
+    top: 28px;
+    left: 50px;
+}
+article
+{
+    height: 1200px;
+    width: auto;
+    background-color:rgb(56, 56, 56) ;
+    position: relative;
+}
+.artical_main
+{
+    position: absolute;
+    top: 30px;
+    margin-left: 430px;
+    height: 1000px;
+    width: 700px;
+    background-color: black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+.first
+{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium';
+    color: white;
+    padding-top: 60px;
+    padding-left: 180px;
+}
+.second
+{
+    margin-top: 40px;
+    height: 50px;
+    margin-left: 190px;
+    width: 340px;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+#anchar
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 50px;
+}
+.second>img
+{
+    height: 23px;
+    width: 23px;
+    margin-left: 20px;
+}
+.second:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.three
+{
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 190px;
+    width: 340px;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.three>img
+{
+    height: 23px;
+    width: 23px;
+    margin-left: 20px;
+}
+.three:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.four
+{
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 190px;
+    width: 340px;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.four>img
+{
+    height: 23px;
+    width: 23px;
+    margin-left: 20px;
+}
+.four:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.five
+{
+    margin-top: 10px;
+    height: 50px;
+    margin-left: 190px;
+    width: 340px;
+    border: 1px solid rgb(131, 130, 130);
+    border-radius: 30px;
+    background-color: transparent;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 50px;
+}
+.five:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.first_hr
+{
+    margin-left: 100px;
+    width: 500px;
+    border-top: 1px solid rgb(41, 41, 41);
+}
+.six
+{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.six label
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic ';
+    color: white;
+}
+:placeholder-shown
+{
+    font-family: 'Franklin Gothic';
+    font-size: 15px;
+    color: rgb(147, 147, 147);
+    padding-left: 10px;
+}
+.six input
+{
+    margin-top: 10px;
+    height: 50px;
+    width: 330px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5px;
+    border: 1px solid rgb(56, 56, 56);
+    color: white;
+}
+.six input:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.seven
+{
+    margin-top: 20px;
+    margin-left: 200px;
+}
+.seven label
+{
+    font-size: 17px;
+    font-family: 'Franklin Gothic ';
+    color: white;
+}
+.seven input
+{
+    margin-top: 10px;
+    height: 50px;
+    width: 330px;
+    background-color: rgb(17, 17, 17);
+    border-radius: 5px;
+    border: 1px solid rgb(56, 56, 56);
+    color: white;
+}
+.seven input:hover
+{
+    border: 1px solid rgb(255, 255, 255);
+}
+.eight
+{
+    margin-top: 50px;
+    height: 50px;
+    margin-left: 200px;
+    width: 330px;
+    border: 1px solid #1ed760;
+    border-radius: 30px;
+    background-color: #1ed760;
+    font-size: 18px;
+    font-family: 'Franklin Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#anchar1
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.eight:hover
+{
+    height: 55px;
+    width: 350px;
+}
+.big_eight
+{
+    height: 70px;
+    width: 360px;
+}
+.nine
+{
+    margin-top: 20px;
+    margin-left: 290px;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 16px;
+    color: white;
+}
+.nine:hover
+{
+    color: #1ed760;
+}
+.second_hr
+{
+    border-top: 1px solid rgb(39, 38, 38);
+    width: 540px;
+    margin-left: 100px;
+}
+.ten
+{
+    font-size: 15px;
+    font-family: 'Franklin Gothic';
+    color: rgb(123, 123, 123);
+    padding-left: 230px;
+}
+.ten a
+{
+    color: white;
+    padding-left: 6px;
+}
+.ten a:hover
+{
+    color: #1ed760;
+}

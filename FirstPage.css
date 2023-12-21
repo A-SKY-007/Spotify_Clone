@@ -1,0 +1,568 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+.header
+{
+    height: 80px;
+    width: auto;
+    background-color: black;
+}
+i
+{
+    font-size: 37px;
+    position: absolute;
+    top: 20px;
+    left: 120px;
+}
+.logo_text
+{
+    position: absolute;
+    top: 23px;
+    left: 161px;
+    font-size: 25px;
+    color: white
+}
+
+.get
+{
+    text-decoration: none;
+    color: black;
+}
+
+.Premium
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 670px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Premium:hover
+{
+    color: #1ed760;
+}
+
+.Support
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 580px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Support:hover
+{
+    color: #1ed760;
+}
+.Download
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 470px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Download:hover
+{
+    color: #1ed760;
+}
+.stop
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 430px;
+    text-decoration: none;
+    color: white;
+}
+.Signin
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 350px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Signin:hover
+{
+    color: #1ed760;
+}
+.Login
+{
+    font-size: 16px;
+    position: absolute;
+    top: 35px;
+    right: 270px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.Login:hover
+{
+    color: #1ed760;
+}
+.artical
+{
+    height: 600px;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+
+}
+.artical_text
+{
+    position: absolute;
+    top: 260px;
+    left: 650px;
+    color: white;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+.artical_image
+{
+    height: 400px;
+    width: 250px;
+    position: absolute;
+    left: 200px;
+    bottom: 60px;
+}
+.phone_image
+{
+    height: 400px;
+    width: 230px;
+    position: absolute;
+    bottom: 59px;
+    left: 235px;
+}
+svg
+{
+    height: 500px;
+    width: 300px;
+    position: absolute;
+    bottom: 10px;
+    left: 200px;
+}
+.get_spotify
+{
+    position: absolute;
+    bottom: 275px;
+    left: 650px;
+    height: 50px;
+    width: 160px;
+    border-radius: 30px;
+    border: 0px;
+    transition: height 0.1s , width 0.1s ;
+}
+.get_spotify:hover
+{
+    height: 60px ;
+    width: 180px ;
+}
+.next1
+{
+    height: 500px;
+    width: auto;
+    background-color: white;
+    position: relative;
+    display: flex;
+}
+.why
+{
+    position: absolute;
+    top: 35px;
+    left: 43%;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium';
+}
+.next1>img
+{
+    height: 130px;
+    width: 130px;
+    margin-top: 150px;
+    margin-left: 200px;
+}
+.one_ch1
+{
+    position: absolute;
+    font-size: 20px;
+    top: 299px;
+    left: 187px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.one_ch2
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 150px;
+    left: 170px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one_ch3
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 130px;
+    left: 195px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.one_ch4
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 110px;
+    left: 230px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two_ch1
+{
+    position: absolute;
+    font-size: 20px;
+    top: 299px;
+    left: 507px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two_ch2
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 150px;
+    left: 497px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two_ch3
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 130px;
+    left: 502px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.two_ch4
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 110px;
+    left: 560px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.three_ch1
+{
+    position: absolute;
+    font-size: 20px;
+    top: 299px;
+    left: 870px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.three_ch2
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 150px;
+    left: 840px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.three_ch3
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 130px;
+    left: 850px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four_ch1
+{
+    position: absolute;
+    font-size: 20px;
+    top: 299px;
+    right: 175px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four_ch2
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 150px;
+    right: 160px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four_ch3
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 130px;
+    right: 164px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.four_ch4
+{
+    position: absolute;
+    font-size: 14px;
+    bottom: 110px;
+    right: 240px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.next2
+{
+    height: 500px;
+    width: 100%;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    position: relative;
+}
+.next2_one
+{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 45%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.next2_two
+{
+    font-size: 50px;
+    color: white;
+    position: absolute;
+    top: 41%;
+    left: 34%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.next3
+{
+    height: 700px;
+    width: 100%; 
+    background-color: white;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.eli_one
+{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+}
+.next3>div
+{
+    margin-top: 70px;
+    font-size: 18px;
+    height: 60px;
+    width: 800px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: .5px black solid;
+}
+.next4
+{
+    height: 400px;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    position: relative;
+}
+.buttom
+{
+
+    position: absolute;
+    bottom: 285px;
+    right: 715px;
+    height: 50px;
+    width: 180px;
+    border-radius: 30px;
+    border: 2px solid black;
+    bottom: 120px;
+    left: 675px;
+    border: 0px solid black;
+    transition: height 0.1s, width 0.1s;
+}
+.buttom:hover
+{
+    height: 65px;
+    width: 195px;
+}
+.next_ch
+{
+    color: white;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: absolute;
+    top: 100px;
+    left: 500px;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+.next5
+{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#logo
+{
+    font-size: 45px;
+    position: absolute;
+    top: 90px;
+}
+#logo_text
+{
+    position: absolute;
+    top: 98px;
+    left: 170px;
+    font-size: 27px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.line_one
+{
+    height: 150px;
+    width: 270px;
+    position: absolute;
+    top: 112px;
+    left: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.line_one a
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+}
+.line_one a:hover
+{
+    color: #1ed760;
+}
+.line_two
+{
+    height: 250px;
+    width: 270px;
+    position: absolute;
+    top: 112px;
+    left: 570px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.line_two a
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+}
+.line_two a:hover
+{
+    color: #1ed760;
+}
+.line_three
+{
+    height: 150px;
+    width: 270px;
+    position: absolute;
+    top: 112px;
+    left: 840px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+.line_three a
+{
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 17px;
+}
+.line_three a:hover
+{
+    color: #1ed760;
+}
+.icon
+{
+    height: 61px;
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 115px;
+    right: 200px;
+}
+.icon>a
+{
+    text-decoration: none;
+}
+.extra
+{
+    height: 55px;
+    width: 55px;
+    background-color: #222326;
+    border-radius: 50%;
+    padding: 14px 14px;
+}
+.extra img
+{
+    background-color: white;
+    height: 27px;
+    width: 27px;
+}
+.extra img:hover
+{
+    background-color: #1ed760;   
+}
+.last
+{
+    height: 15px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50px;
+    left: 120px;
+}
+.last>a
+{
+    font-size: 14px;
+    color: #919496;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+.last>a:hover
+{
+    color: #1ed760;
+}
+.end
+{
+    height: 50px;
+    font-size: 14px;
+    color: #919496;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.end>a
+{
+    color: #919496;
+}
+.end
+{
+    position: absolute;
+    bottom: 200px;
+    right: 150px;
+}
